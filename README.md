@@ -88,6 +88,8 @@ The goal of this project is to analyze and uncover patterns in road traffic acci
 - **dbt (Data Build Tool)**: Data transformation and modeling.
 - **Streamlit**: Used for building the interactive dashboard.
 
+![Arquitecture](image.png)
+
 ---
 
 ## Setup & Deployment
