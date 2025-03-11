@@ -3,6 +3,8 @@ clear
 
 echo "🚀 Starting Automated ETL Setup!"
 
+gcloud auth revoke --all
+
 # ✅ Fix permissions on the host machine (Linux/macOS only)
 echo "🔹 Fixing permissions for airflow/dags/dbt..."
 mkdir -p airflow/dags/dbt  # Ensure the folder exists

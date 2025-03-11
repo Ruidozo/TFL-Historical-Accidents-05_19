@@ -139,5 +139,3 @@ There are two ways to set up and deploy the project:
 - **Email**: [ruimcarv@gmail.com](mailto\:ruimcarv@gmail.com)
 
 ---
-
-# tfl-de-zoomcamp-project
