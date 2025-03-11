@@ -14,59 +14,6 @@ The goal of this project is to analyze and uncover patterns in road traffic acci
 
 ---
 
-### **Key Insights to Extract from the Dataset**
-
-#### **1. Location-Based Analysis**
-
-- Identify accident hotspots based on **geographical location**.
-- Determine whether **specific road types** (highways, intersections, residential streets) have a higher frequency of accidents.
-
-#### **2. Weather Conditions & Accident Severity**
-
-- Analyze the impact of **weather conditions** (rain, fog, snow, clear, etc.) on accident occurrence.
-- Correlate **weather with severity** (minor injuries, severe injuries, fatalities).
-- Identify which weather conditions lead to higher accident rates for **specific vehicle types**.
-
-#### **3. Type of Transportation & Accident Risk**
-
-- Compare accident frequency between different **modes of transport** (cars, motorcycles, bicycles, public transport, pedestrians).
-- Analyze which **transport type** is most vulnerable to severe injuries.
-- Identify whether certain **types of vehicles** (e.g., motorcycles, trucks) are overrepresented in accident data.
-
-#### **4. Seasonal & Temporal Trends**
-
-- Identify how accidents fluctuate across **seasons** and **months** (e.g., do accidents increase in winter due to road conditions?).
-- Determine which **days of the week** have the highest accident occurrences.
-- Compare accident trends on **weekdays vs. weekends**.
-
-#### **5. Injuries & Fatalities by Transport Type**
-
-- Determine which **transportation types** are associated with **higher injury rates**.
-- Compare the **average number of injuries** per accident across different modes of transport.
-- Assess the likelihood of **fatalities vs. non-fatal injuries** for specific vehicle categories.
-
-#### **6. Risk Factors for Different Demographics**
-
-- Analyze how **age** correlate with accident risks.
-- Identify if specific **demographics** (e.g., younger drivers, elderly pedestrians) are more prone to accidents or severe injuries.
-
-#### **7. Impact of Road & Traffic Conditions**
-
-- Identify the influence of **road surface conditions** (wet, dry, icy) on accident severity.
-- Assess the role of **traffic density** in accident frequency.
-
-
-
----
-
-### **Potential Applications**
-
-- **Traffic Safety Policies:** Provide insights for improving **road safety regulations**.
-- **Urban Planning:** Help **city planners** identify areas needing infrastructure improvements (better lighting, pedestrian crossings, speed limits).
-- **Public Awareness Campaigns:** Guide the design of **targeted safety campaigns** based on the most affected groups and risk factors.
-- **Emergency Response Optimization:** Improve resource allocation for **emergency services** based on high-risk locations and seasonal trends.
-
----
 
 ## Project Architecture
 
@@ -131,6 +78,56 @@ There are two ways to set up and deploy the project:
 
    - **Airflow**: Visit `http://localhost:8082`
    - **Dashboard**: Visit `http://localhost:8501`
+
+---
+### **Key Insights to Extract from the Dataset**
+
+#### **1. Location-Based Analysis**
+
+- Identify accident hotspots based on **geographical location**.
+- Determine whether **specific road types** (highways, intersections, residential streets) have a higher frequency of accidents.
+
+#### **2. Weather Conditions & Accident Severity**
+
+- Analyze the impact of **weather conditions** (rain, fog, snow, clear, etc.) on accident occurrence.
+- Correlate **weather with severity** (minor injuries, severe injuries, fatalities).
+- Identify which weather conditions lead to higher accident rates for **specific vehicle types**.
+
+#### **3. Type of Transportation & Accident Risk**
+
+- Compare accident frequency between different **modes of transport** (cars, motorcycles, bicycles, public transport, pedestrians).
+- Analyze which **transport type** is most vulnerable to severe injuries.
+- Identify whether certain **types of vehicles** (e.g., motorcycles, trucks) are overrepresented in accident data.
+
+#### **4. Seasonal & Temporal Trends**
+
+- Identify how accidents fluctuate across **seasons** and **months** (e.g., do accidents increase in winter due to road conditions?).
+- Determine which **days of the week** have the highest accident occurrences.
+- Compare accident trends on **weekdays vs. weekends**.
+
+#### **5. Injuries & Fatalities by Transport Type**
+
+- Determine which **transportation types** are associated with **higher injury rates**.
+- Compare the **average number of injuries** per accident across different modes of transport.
+- Assess the likelihood of **fatalities vs. non-fatal injuries** for specific vehicle categories.
+
+#### **6. Risk Factors for Different Demographics**
+
+- Analyze how **age** correlate with accident risks.
+- Identify if specific **demographics** (e.g., younger drivers, elderly pedestrians) are more prone to accidents or severe injuries.
+
+#### **7. Impact of Road & Traffic Conditions**
+
+- Identify the influence of **road surface conditions** (wet, dry, icy) on accident severity.
+- Assess the role of **traffic density** in accident frequency.
+
+
+### **Potential Applications**
+
+- **Traffic Safety Policies:** Provide insights for improving **road safety regulations**.
+- **Urban Planning:** Help **city planners** identify areas needing infrastructure improvements (better lighting, pedestrian crossings, speed limits).
+- **Public Awareness Campaigns:** Guide the design of **targeted safety campaigns** based on the most affected groups and risk factors.
+- **Emergency Response Optimization:** Improve resource allocation for **emergency services** based on high-risk locations and seasonal trends.
 
 ---
 
