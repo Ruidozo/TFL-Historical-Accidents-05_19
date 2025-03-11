@@ -1,0 +1,84 @@
+# Ignore Terraform state & backup files
+terraform.tfstate*
+.terraform/
+.terraform.lock.hcl
+
+# Ignore logs
+*.log
+crash.log
+
+# Ignore sensitive environment files
+*.env
+secrets/
+secrets.*
+
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+wheels/
+
+# Ignore unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore database files
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore mypy, pytype, Pyre type checking caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Ignore IDE/editor-specific files
+.ropeproject
+.ruff_cache/
+
+# Ignore PyPI configuration
+.pypirc
+
+# Ignore notes, scripts, and workspace settings
+notes/
+scripts/
+notes.txt
+activation_log.txt
+
+# Ignore dbt artifacts
+airflow/dags/dbt/.user.yml
+airflow/dags/dbt/target/
+
+# Ignore data directories
+dlt/raw_data/
+dlt/processed_data/
+
+# Ignore backups
+backups/
+
+# Ignore Kaggle files
+.kaggle/
