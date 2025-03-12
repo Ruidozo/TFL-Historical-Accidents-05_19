@@ -1,5 +1,6 @@
 # Transport Accident Analysis & Correlation with Weather in London
 
+
 ## Overview
 
 The **TFL-Accidents\_05-19** project is a data engineering pipeline designed to analyze historical road traffic accidents in London. The dataset includes all recorded accidents in the London area between **2005 and 2019**. It integrates data from multiple sources, including the Transport for London (TfL) AccidentStats API and weather data, to study correlations between weather conditions and accident occurrences.
@@ -11,6 +12,7 @@ This project follows an end-to-end pipeline approach, leveraging cloud storage, 
 ### **Objective**
 
 The goal of this project is to analyze and uncover patterns in road traffic accidents by correlating accident data with various external factors such as location, weather, transportation type, and date-based trends. Since the dataset does not explicitly include time of day, the analysis is conducted based on **dates only**, rather than specific hours or timeframes within a day. This will help in identifying risk factors, trends, and potential safety improvements.
+
 
 ---
 
@@ -35,7 +37,7 @@ The goal of this project is to analyze and uncover patterns in road traffic acci
 - **dbt (Data Build Tool)**: Data transformation and modeling.
 - **Streamlit**: Used for building the interactive dashboard.
 
-![Arquitecture](image.png)
+![Arquitecture](/images/image.png)
 
 ---
 
@@ -128,6 +130,30 @@ There are two ways to set up and deploy the project:
 - **Urban Planning:** Help **city planners** identify areas needing infrastructure improvements (better lighting, pedestrian crossings, speed limits).
 - **Public Awareness Campaigns:** Guide the design of **targeted safety campaigns** based on the most affected groups and risk factors.
 - **Emergency Response Optimization:** Improve resource allocation for **emergency services** based on high-risk locations and seasonal trends.
+
+---
+
+## ** PREVIEW **
+
+---
+
+
+
+### **Live Dashboard**: [View on Streamlit](https://tfl-accidents-zoomcamp.streamlit.app/)  
+
+
+<table>
+   <tr>
+      <td><img src="images/newplot (5).png" alt="plot 5" width="200"/></td>
+      <td><img src="images/newplot (6).png" alt="plot 6" width="200"/></td>
+      <td><img src="images/newplot (7).png" alt="plot 7" width="200"/></td>
+   </tr>
+   <tr>
+      <td><img src="images/newplot (8).png" alt="plot 8" width="200"/></td>
+      <td><img src="images/newplot (9).png" alt="plot 9" width="200"/></td>
+      <td><img src="images/newplot (10).png" alt="plot 10" width="200"/></td>
+   </tr>
+</table>
 
 ---
 
